@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import AddAccountButton from '@/features/add-account/ui/AddAccountButton.vue'
+import { AddAccountButton } from '@/features/add-account'
 </script>
 
 <template>
   <v-container>
-    <div class="d-flex align-center ga-3 mb-6">
+    <div class="d-flex align-center ga-3">
       <h1>
         Учетные записи
       </h1>

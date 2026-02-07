@@ -42,6 +42,10 @@ export default antfu({
         ignoreWhenNoAttributes: false,
         ignores: ['pre', 'textarea'],
       }],
+
+      'vue/no-mutating-props': ['error', {
+        shallowOnly: true,
+      }],
     },
   },
 
